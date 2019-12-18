@@ -1,0 +1,22 @@
+{
+    "name": "mcpuishor/super-traits",
+    "description": "Measuring traits for packages",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "version" : "0.0.1",
+    "require": {
+        "php": "^7.2",
+    },
+    "authors": [
+        {
+            "name": "Robert Tudor",
+            "email": "eu@robert-tudor.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mcpuishor\\SuperTraits\\": "src/"
+        }
+    }
+}
